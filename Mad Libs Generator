@@ -1,0 +1,21 @@
+import random
+
+def mad_libs():
+
+  # Define the parts of speech needed for the story
+  nouns = ["cat", "dog", "bird", "tree", "house"]
+  verbs = ["run", "jump", "fly", "eat", "sleep"]
+  adjectives = ["happy", "sad", "funny", "big", "small"]
+
+  # Choose random words from each list
+  noun1 = random.choice(nouns)
+  verb1 = random.choice(verbs)
+  adjective1 = random.choice(adjectives)
+
+  # Build the story using the chosen words
+  story = f"The {adjective1} {noun1} {verb1} to the park."
+
+  # Print the story
+  print(story)
+
+mad_libs()
