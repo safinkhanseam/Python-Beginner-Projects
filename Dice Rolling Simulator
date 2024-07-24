@@ -1,0 +1,13 @@
+import random
+
+def roll_dice():
+  """Rolls a six-sided die and returns the result."""
+  return random.randint(1, 6)
+
+def main():
+  """Simulates rolling a die and prints the result."""
+  result = roll_dice()
+  print(f"You rolled a {result}")
+
+if __name__ == "__main__":
+  main()
